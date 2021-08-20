@@ -1,0 +1,31 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    text-align: center;
+    margin:auto;
+}
+.main-heading{
+    background-color: darkcyan;
+    border:1px solid ;
+    border-width: 0.5rem;
+    border-radius: 1rem;
+}
+.paragraph{
+    font-weight: bold;
+}
+#bill-amount{
+  border: 1px solid darkcyan;
+  padding: 0.5rem;
+}
+#cash-given{
+    border: 1px solid darkcyan;
+    padding: 0.5rem;    
+}
+#check-button{
+    margin-top: 1rem;
+    padding: 0.4rem;
+    font-weight: bold;
+    border: 1px solid darkcyan;
+}
