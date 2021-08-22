@@ -14,7 +14,7 @@ checkButton.addEventListener("click", function validateBillAndCashAmount() {
             calculateChange(amountToBeReturned);
 
         } else {
-            showMessage("Cash given should atleast be equal to the bill amount");
+            showMessage("Cash given should atleast be equal to the bill amount.");
         }
     } else {
         showMessage("Invalid bill amount");
@@ -32,8 +32,7 @@ function calculateChange(amountToBeReturned) {
 }
 
 function hideMessage(){
-    console.log("here2");
-    message.style.display= "none";
+    message.style.display="none";
 }
 
 function showMessage(msg) {
