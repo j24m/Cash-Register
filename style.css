@@ -6,7 +6,7 @@
     text-align: center;
     margin:auto;
 }
-.main-heading{
+.heading{
     background-color: darkcyan;
     border:1px solid ;
     border-width: 0.5rem;
@@ -28,4 +28,12 @@
     padding: 0.4rem;
     font-weight: bold;
     border: 1px solid darkcyan;
+    margin-top: 3rem;
+}
+label{
+    margin-top: 3rem;
+}
+#output{
+    padding-top: 3rem;
+    font-weight: bold;
 }
