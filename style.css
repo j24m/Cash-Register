@@ -1,4 +1,3 @@
-
 .container{
     display: flex;
     flex-direction: column;
@@ -29,6 +28,8 @@
     font-weight: bold;
     border: 1px solid darkcyan;
     margin-top: 3rem;
+    border-radius: 0.5rem;
+    color:darkcyan ;
 }
 label{
     margin-top: 3rem;
@@ -36,4 +37,12 @@ label{
 #output{
     padding-top: 3rem;
     font-weight: bold;
+}
+.caption{
+    font-weight: bold;
+    padding:1rem;
+}
+input{
+    text-align: center;
+    border-radius: 0.5rem;
 }
